@@ -6,6 +6,7 @@ resource "github_repository" "terraformrepo" {
   has_projects = true
 }
 
+<<<<<<< HEAD
 
 # Set up baseline configs for the repo
 resource "github_branch_protection" "team_baseline_config" {
@@ -22,3 +23,5 @@ resource "github_branch_protection" "team_baseline_config" {
     require_code_owner_reviews = false
   }
 }
+=======
+>>>>>>> ae3a6f5cf083e024c7da2ee884a288811b8ff35c

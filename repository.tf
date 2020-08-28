@@ -6,6 +6,7 @@ resource "github_repository" "terraformrepo" {
   has_projects = true
 }
 
+feature/branch-protection
 # Set up baseline configs for the repo
 resource "github_branch_protection" "team_baseline_config" {
   repository     = github_repository.terraformrepo.name

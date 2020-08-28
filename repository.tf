@@ -21,3 +21,4 @@ resource "github_branch_protection" "team_baseline_config" {
     require_code_owner_reviews = false
   }
 }
+
